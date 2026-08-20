@@ -1,4 +1,9 @@
 game.ReplicatedStorage["01_server"]:FireServer("cmd", "-net")
+game.StarterGui:SetCore("SendNotification", {
+	Title = "FE BTools"; -- can be anything you'd like.
+	Text = "FE BTools is FREE AND KEYLESS SOFTWARE"; -- also anything you'd like.
+	Duration = "5"; -- how long the notification will stay for.
+})
 task.wait(0.2)
 --reanimate by MyWorld#4430 discord.gg/pYVHtSJmEY
 --the code that looks trash and works great
